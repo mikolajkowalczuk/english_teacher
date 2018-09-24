@@ -6,10 +6,13 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="english_teacher_main.css" />
-    <script src="main.js"></script>
+    <script src="english_teacher_main.js"></script>
 </head>
 <body>
     <button onclick="window.location.href='menu.html'">Back</button>
+    <button id="next_button" onclick="vocabulary.sprawdzacz()">Next</button>
+
+    <div id="main"></div>
 
     <h1 id="header">Type your words in english :</h1>
     <div id="container_1">
@@ -18,7 +21,7 @@
     <input id="3" type="text" class="input">
     <input id="4" type="text" class="input">
     <input id="5" type="text" class="input">
-    <button class="add">Add</button>
+    <button class="add" onclick="vocabulary.english_words()">Add</button>
     </div>    
     <h1 id="header_2">Type your words in polish :</h1>
     <input id="a" type="text" class="input">
@@ -26,6 +29,7 @@
     <input id="c" type="text" class="input">
     <input id="d" type="text" class="input">
     <input id="e" type="text" class="input">
-    <button class="add">Add</button>
+    <button class="add" onclick="vocabulary.polish_words()">Add</button>
+    
 </body>
 </html>

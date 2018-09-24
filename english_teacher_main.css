@@ -67,6 +67,9 @@ button{
     animation-name:button_animation_3;
     animation-duration: 2s;
 }
+#next_button{
+    float:right;
+}
 @keyframes input_animation{
     0%{
         width: 0%;
