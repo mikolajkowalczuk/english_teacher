@@ -103,6 +103,9 @@ button{
 #back{
     opacity: 0;
 }
+#check_it_2{
+    opacity: 0;
+}
 @keyframes input_animation{
     0%{
         width: 0%;
