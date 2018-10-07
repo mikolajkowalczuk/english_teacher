@@ -2,6 +2,7 @@ body{
     background-image: url('main_background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 0;
 }
 .button{
     width: 50%;
@@ -22,6 +23,15 @@ body{
     font-size: 20px;
     animation-name:button_animation_2;
     animation-duration: 1s;
+}
+.button_3{
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    animation-name:button_animation_2;
+    animation-duration: 1s; 
+    margin-bottom: 2%;
+    margin-left: 25%;
 }
 #grammar{
     margin-top: 2%;
@@ -69,6 +79,29 @@ button{
 }
 #next_button{
     float:right;
+}
+#present_simple, #translate, #header_present_simple, #past_simple, #translate_2{
+    font-size: 0px;
+    width: 0%;
+    height: 0px;
+   margin-left: 0%;
+   opacity: 0;
+}
+#check_it{
+    opacity: 0;
+    width: 0%;
+    height: 0;
+}
+#wynik{
+    opacity: 0;
+    width: 0%;
+    height: 0%;
+}
+#tw{
+    opacity: 0;
+}
+#back{
+    opacity: 0;
 }
 @keyframes input_animation{
     0%{
@@ -139,3 +172,4 @@ button{
     0%{font-size: 0px;height: 0px;}
     100%{height: 100%;}
 }
+ 
