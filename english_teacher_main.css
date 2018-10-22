@@ -80,14 +80,14 @@ button{
 #next_button{
     float:right;
 }
-#present_simple, #translate, #header_present_simple, #past_simple, #translate_2{
+#present_simple, #translate, #present_continues, #past_continues, #translate_5, #translate_4, #translate_6, #translate_7, #translate_8, #header_present_simple, #past_simple, #translate_2, #future_simple, #future_continues, #present_perfect, #past_perfect, #translate_3{
     font-size: 0px;
     width: 0%;
     height: 0px;
    margin-left: 0%;
    opacity: 0;
 }
-#check_it{
+#check_it, #check_it_2, #check_it_3, #check_it_4, #check_it_5, #check_it_6, #check_it_7, #check_it_8{
     opacity: 0;
     width: 0%;
     height: 0;

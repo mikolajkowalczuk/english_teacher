@@ -12,6 +12,7 @@
     <div id="tw">Twój wynik to :</div>
     <div id="wynik"></div>
 
+<div id="board">   
     <h1 id="header_present_simple">Choose corect form of verb :</h1><br>
 
     <div id="present_simple">
@@ -87,7 +88,6 @@ hate people
         <p class="translate_background">4.czy on wygląda jak gówno ?<br></p>
         <p class="translate_background">5.My nie nienawidzimy ludzi<br></p>      
     </div>
-
     <div id="past_simple">
 
             <div class='translate_background_2';>1.I 
@@ -159,27 +159,508 @@ hate people
         at school two days ago because I was sick.
     </div>
     <br>
-        </div>
-        <div id="translate_2">
+    </div>
+    <div id="translate_2">
                 <p class="translate_background_2">  1.Byłam w domu wczoraj.<br></p>
                 <p class="translate_background_2">2.Marek nie widział się z rana z Joanną, <br>więc nie mógł z nią porozmawiać.<br></p>
                 <p class="translate_background_2">3.Byłeś sam w domu?<br></p>
                 <p class="translate_background_2">4.Kiedy pojechałeś do Szkocji?<br></p>
                 <p class="translate_background_2">5. Nie było mnie w szkole dwa dni temu, bo byłam chora.<br></p>      
-            </div>
+    </div>
+    <div id="future_simple">
 
-    <button  onclick="window.location.href='menu.html'" id="back">back</button>
-    <button id='check_it' onclick=" sprawdzacz_grammar_ps()">check it</button>
-    <button id='check_it_2' onclick=" sprawdzacz_grammar_pas()">check it</button>
-    
-    <h1 id="header">Select your lesson :</h1>
-    <button onclick=" present_simple(), display_function()" class="button_3">Present simple</button>
-    <button onclick=" past_simple(), display_function()" class="button_3">Past simple</button>
-    <button onclick="display_function()" class="button_3">Future simple</button>
-    <button onclick="display_function()" class="button_3">Present continues</button>
-    <button onclick="display_function()" class="button_3">Past continues</button>
-    <button onclick="display_function()" class="button_3">Future continues</button>
-    <button onclick="display_function()" class="button_3">Present perfect</button>
-    <button onclick="display_function()" class="button_3">Past perfect</button>
+        <div class='translate_background_3';>1.Tommorow I 
+            <select  id="jeden_fs" >
+                <option value="-">-</option>   
+                <option value="will">will</option>
+                <option value="will not">will not</option>
+                <option value="will be">will be</option>
+                <option value="will be not">will be not</option>
+            </select>
+            at home. 
+        </div>
+        <br>
+        <div class='translate_background_3';>2.
+            <select  id="dwa_fs" >
+                <option value="-">-</option>   
+                <option value="will">will</option>
+                <option value="will not">will not</option>
+                <option value="will be">will be</option>
+                <option value="will be not">will be not</option>
+            </select>
+            Mark be on the event.
+        </div>
+        <br>
+            
+                    <div class='translate_background_3';>3.You
+                            <select  id="trzy_fs" >
+                                    <option value="-">-</option>   
+                                    <option value="will">will</option>
+                                    <option value="will not">will not</option>
+                                    <option value="will be">will be</option>
+                                    <option value="will be not">will be not</option>
+                                </select>
+                        at home alone!
+            </div>
+            <br>
+            
+            <div class='translate_background_3';>
+                4.When 
+                <select  id="cztery_fs" >
+                        <option value="-">-</option>   
+                        <option value="will">will</option>
+                        <option value="will not">will not</option>
+                        <option value="will be">will be</option>
+                        <option value="will be not">will be not</option>
+                    </select>
+                you go to Dania?
+            </div>
+            <br>
+            
+            <div class='translate_background_3';>5.I 
+                    <select  id="pięć_fs" >
+                            <option value="-">-</option>   
+                            <option value="will">will</option>
+                            <option value="will not">will not</option>
+                            <option value="will be">will be</option>
+                            <option value="will be not">will be not</option>
+                        </select>
+                buy potatos in next week.
+            </div>
+            <br>
+    </div>
+    <div id="translate_3">
+                        <p class="translate_background_3">  1.Jutro będę w domu.<br></p>
+                        <p class="translate_background_3">2.Czy Marek będzie na zebraniu ?</p>
+                        <p class="translate_background_3">3.Nie będziesz sam w domu!<br></p>
+                        <p class="translate_background_3">4.Kiedy pojedziesz do Dani?<br></p>
+                        <p class="translate_background_3">5.Za tydzień kupię kartofle.<br></p>      
+    </div>
+    <div id="present_continues">
+
+        <div class='translate_background_3';>1.I
+                <select  id="jeden_pc" >
+                    <option value="-">-</option>
+                    <option value="- going">going</option>   
+                    <option value="am going">am going</option>
+                    <option value="is going">is going</option>
+                    <option value="are going">are going</option>
+                    <option value="isn't going">isn't going</option>
+                    <option value="aren't going">aren't going</option>
+                    <option value="am not going">am not going</option>
+                </select>
+                home.
+        </div>
+        <br>
+        <div class='translate_background_3';>2.Greg
+                <select  id="dwa_pc" >
+                    <option value="-">-</option>
+                    <option value="going">going</option>   
+                    <option value="am going">am going</option>
+                    <option value="is going">is going</option>
+                    <option value="are going">are going</option>
+                    <option value="isn't going">isn't going</option>
+                    <option value="aren't going">aren't going</option>
+                    <option value="am not going">am not going</option>
+                </select>
+                to the cinema with Pauline on Friday
+        </div>
+        <br>
+
+        <div class='translate_background_3';>3.I
+                <select  id="trzy_pc" >
+                    <option value="-">-</option>
+                    <option value="watching">watching</option>   
+                    <option value="am watching">am watching</option>
+                    <option value="is watching">is watching</option>
+                    <option value="are watching">are watching</option>
+                    <option value="isn't watching">isn't watching</option>
+                    <option value="aren't watching">aren't watching</option>
+                    <option value="am not watching">am not watching</option>
+                </select>
+                watching TV at the moment.
+        </div>
+        <br>
+
+    <div class='translate_background_3';>
+        4.Susan 
+        <select  id="cztery_pc" >
+            <option value="-">-</option>
+            <option value="reading">reading</option>   
+            <option value="am reading">am reading</option>
+            <option value="is reading">is reading</option>
+            <option value="are reading">are reading</option>
+            <option value="isn't reading">isn't reading</option>
+            <option value="aren't reading">aren't reading</option>
+            <option value="am not reading">am not reading</option>
+        </select>
+        reading a book.
+    </div>
+    <br>
+
+    <div class='translate_background_4';>5.She
+        <select  id="pięć_pc" >
+            <option value="-">-</option>
+            <option value="standing">standing</option>   
+            <option value="am standing">am standing</option>
+            <option value="is standing">is standing</option>
+            <option value="are standing">are standing</option>
+            <option value="isn't standing">isn't standing</option>
+            <option value="aren't standing">aren't standing</option>
+            <option value="am not standing">am not standing</option>
+        </select>
+        in front of you.
+    </div>
+    <br>
+    </div>
+    <div id="translate_4">
+            <p class="translate_background_3">  1.Idę do domu.<br></p>
+            <p class="translate_background_3">2.Greg idzie do kina z Pauliną w piątek.</p>
+            <p class="translate_background_3">3. Nie oglądam TV w tej chwili.<br></p>
+            <p class="translate_background_3">4.Susan nie czyta książki.<br></p>
+            <p class="translate_background_3">5.Ona nie stoi na przeciw ciebie.<br></p>      
+    </div>
+    <div id="past_continues">
+
+    <div class='translate_background_3';>1.I 
+            <select  id="jeden_pac" >
+                <option value="-">-</option>   
+                <option value="taking ">taking </option>   
+                <option value="was taking">was taking </option>
+                <option value="wasn't taking">wasn't taking </option>
+                <option value="were taking ">were taking </option>
+                <option value="weren't taking ">weren't taking </option>
+                <option value="did">did</option>
+                <option value="didn't">didn't</option>
+            </select>
+            a shower when you came.
+    </div>
+    <br>
+    <div class='translate_background_3';>2.It 
+            <select  id="dwa_pac" >
+                <option value="-">-</option>   
+                <option value="getting">getting</option>   
+                <option value="was getting">was getting</option>
+                <option value="wasn't getting">wasn't getting</option>
+                <option value="were getting">were getting</option>
+                <option value="weren't getting">weren't getting</option>
+                <option value="did getting">did getting</option>
+                <option value="didn't getting">didn't getting</option>
+                </select>
+                dark.
+    </div>
+    <br>
+
+    <div class='translate_background_3';>3.Yesterday at 1 pm we
+            <select  id="trzy_pac" >
+                <option value="-">-</option>   
+                <option value="having">having</option>   
+                <option value="was having">was having</option>
+                <option value="wasn't having">wasn'thaving</option>
+                <option value="were having">were having</option>
+                <option value="weren't having">weren't having</option>
+                <option value="did having">did having</option>
+                <option value="didn't having">didn't having</option>
+            </select>
+            dinner.
+    </div>
+<br>
+
+    <div class='translate_background_3';>
+        4.Dumbledor
+        <select  id="cztery_pac" >
+            <option value="-">-</option>      
+            <option value="was getting">was getting</option>                <option value="wasn't">wasn't</option>
+            <option value="were getting">were getting</option>
+            <option value="weren't getting">weren't getting</option>
+            <option value="did getting">did getting</option>
+            <option value="didn't getting">didn't getting</option>
+    </select>
+    to sick.
+    </div>
+<br>
+
+    <div class='translate_background_4';>5.
+        <select  id="pięć_pac" >
+            <option value="-">-</option>   
+            <option value="was">was</option>
+            <option value="wasn't">wasn't</option>
+            <option value="were">were</option>
+            <option value="weren't">weren't</option>
+            <option value="did">did</option>
+            <option value="didn't">didn't</option>
+        </select>
+        she
+        <select id="sześć_pac"><option value="-">-</option><option value="dream">dream</option><option value="dreaming">dreaming</option></select>
+        about you?
+    </div>
+   
+        
+
+<br>
+    </div>
+    <div id="translate_5">
+        <p class="translate_background_3">  1.Brałem prysznic gdy ty przyszedłeś.<br></p>
+        <p class="translate_background_3">2.Robiło się ciemno.</p>
+        <p class="translate_background_3">3. Wczoraj o 13 jedliśmy obiad. <br></p>
+        <p class="translate_background_3">4.Dumbledor zaczynał chorować<br></p>
+        <p class="translate_background_3">5.Czy ona śniła przy Tobie?<br></p>      
+    </div>
+    <div id="future_continues">
+
+    <div class='translate_background_3';>1.Our dog 
+            <select  id="jeden_fc" >
+                    <option value="-">-</option>   
+                    <option value="will">will learning</option>
+                    <option value="will not">will not learning</option>
+                    <option value="will be learning">will be learning</option>
+                    <option value="will be not">will be not learning</option>
+                </select>
+      new commands tommorow. 
+    </div>
+<br>
+    <div class='translate_background_3';>2.He 
+            <select  id="dwa_fc" >
+                    <option value="-">-</option>   
+                    <option value="will">will cleaning</option>
+                    <option value="will not">will not cleaning</option>
+                    <option value="will be cleaning">will be cleaning</option>
+                    <option value="will be not">will be not cleaning</option>
+                </select>
+                the dishes at 2 pm.
+    </div>
+    <br>
+
+    <div class='translate_background_3';>3.What 
+            <select  id="trzy_fc" >
+                    <option value="-">-</option>   
+                    <option value="will">will</option>
+                    <option value="will not">will not</option>
+                    <option value="will be">will be</option>
+                    <option value="will be not">will be not</option>
+                </select>
+                you be <select id="cztery_fc"><option value="-">-</option><option value="doing">doing</option><option value="do">do</option></select> this time next year?
+</div>
+<br>
+
+    <div class='translate_background_3';>
+    4.It 
+        <select  id="pięć_fc" >
+            <option value="-">-</option>   
+            <option value="will">will raining</option>
+            <option value="will not">will not raining</option>
+            <option value="will be raining">will be raining</option>
+            <option value="will be not raining">will be not raining</option>
+        </select>
+        when they play football.
+    </div>
+<br>
+
+    <div class='translate_background_4';>5.I   
+        <select  id="sześć_fc" >
+            <option value="-">-</option>   
+            <option value="will">will jogging</option>
+            <option value="will not">will jogging not</option>
+            <option value="will be jogging">will be jogging</option>
+            <option value="will be not jogging">will be not jogging</option>
+        </select>
+        when Mick arrives tomorrow.
+    </div>
+<br>
+    </div>
+    <div id="translate_6">
+        <p class="translate_background_3">  1.Nasz pies będzie jutro uczony sztuczek.<br></p>
+        <p class="translate_background_3">2.On będzie zmywał naczynia o 14.</p>
+        <p class="translate_background_3">3.Co będziesz robił za rok o tej samej porze?<br></p>
+        <p class="translate_background_3">4.Nie będzie padać kiedy oni będągraćw piłkę.<br></p>
+        <p class="translate_background_3">5.Nie będę biegał, kiedy jutro Mick przyjedzie.<br></p>      
+    </div>
+    <div id="present_perfect">
+
+    <div class='translate_background_3';>1.I  
+            <select  id="jeden_pp" >
+                    <option value="-">-</option>   
+                    <option value="has">has found</option>
+                    <option value="have found">have found</option>
+                    <option value="haven't">haven't found</option>
+                    <option value="hasn't">hasn't found</option>
+                </select>
+                his telephone number.
+</div>
+<br>
+    <div class='translate_background_3';>2.She 
+            <select  id="dwa_pp" >
+                <option value="-">-</option> 
+                <option value="closed">closed</option>   
+                <option value="has closed">has closed</option>
+                <option value="have">have closed</option>
+                <option value="haven't">haven't closed</option>
+                <option value="hasn't">hasn't closed</option>
+                </select>
+                the door.
+    </div>
+    <br>
+
+    <div class='translate_background_3';>3.It 
+            <select  id="trzy_pp" >
+                <option value="-">-</option>   
+                <option value="has started">has started</option>
+                <option value="have">have started</option>
+                <option value="haven't">haven't started</option>
+                <option value="hasn't started">hasn't started</option>
+                </select>
+                raining.
+</div>
+<br>
+
+    <div class='translate_background_3';>
+        4.Someone
+        <select  id="cztery_pp" >              
+            <option value="-">-</option>   
+            <option value="stolen">stolen</option> 
+            <option value="has taken">has taken</option>
+            <option value="have">have taken</option>
+            <option value="haven't">haven't taken</option>
+            <option value="hasn't">hasn't taken</option>
+        </select>
+        my bag.
+    </div>
+<br>
+
+    <div class='translate_background_4';>5.
+        <select  id="pięć_pp" >
+            <option value="-">-</option>   
+            <option value="has">has</option>
+            <option value="have">have</option>
+            <option value="haven't">haven't</option>
+            <option value="hasn't">hasn't</option>
+        </select>
+        they <select id="sześć_pp"><option value="-">-</option><option value="changed">changed</option></select>
+        their plans?
+    </div>
+<br>
+    </div>
+    <div id="translate_7">
+        <p class="translate_background_3">  1.Znalazłem jego numer telefonu.<br></p>
+        <p class="translate_background_3">2.Ona zamknęła drzwi.</p>
+        <p class="translate_background_3">3.Nie zaczęło padać.<br></p>
+        <p class="translate_background_3">4.Ktoś zabrał moją torebkę.<br></p>
+        <p class="translate_background_3">5.Czy oni zmienili plany?<br></p>      
+    </div>
+    <div id="past_perfect">
+
+    <div class='translate_background_3';>1.I
+            <select  id="jeden_pap" >
+                    <option value="-">-</option>   
+                    <option value="has">has washed</option>
+                    <option value="hasn't">hasn't washed</option>
+                    <option value="had washed">had washed</option>
+                    <option value="hadn't">hadn't washed</option>
+                    <option value="has been">has been washed</option>
+                    <option value="hasn't been">hasn't been washed</option>
+                    <option value="had been">had been washed</option>
+                    <option value="hadn't been">hadn't been washed</option>
+                </select>
+                before I <select id="dwa_pap"> <option value="-">-</option>   
+                    <option value="left">left</option></select> home.
+</div>
+<br>
+    <div class='translate_background_3';>2.
+        After I  
+            <select  id="trzy_pap" >
+                <option value="-">-</option>   
+                <option value="has">has invited</option>
+                <option value="hasn't">hasn't invited</option>
+                <option value="had invited">had invited</option>
+                <option value="hadn't">hadn't invited</option>
+                <option value="has been">has been invited</option>
+                <option value="hasn't been">hasn't been invited</option>
+                <option value="had been">had been invited</option>
+                <option value="hadn't been">hadn't been invited</option>
+                </select>
+                my friends I <select id="cztery_pap"><option value="-">-</option><option value="went">went</option></select> shopping.
+    </div>
+    <br>
+
+    <div class='translate_background_3';>3.
+        When she 
+            <select  id="pięć_pap" >
+                <option value="-">-</option>   
+                <option value="has planted">has planted</option>
+                <option value="hasn't">hasn't planted</option>
+                <option value="had">had planted</option>
+                <option value="hadn't">hadn't planted</option>
+                <option value="has been">has been planted</option>
+                <option value="hasn't been">hasn't been planted</option>
+                <option value="had been">had been planted</option>
+                <option value="hadn't been">hadn't been planted</option>
+                </select>
+                the flowers she <select id="sześć_pap"><option value="-">-</option><option value="watered">watered </option>  </select> them.
+</div>
+<br>
+
+    <div class='translate_background_3';>
+    4.
+        <select  id="siedem_pap" >
+            <option value="-">-</option>   
+            <option value="has">has</option>
+            <option value="hasn't">hasn't</option>
+            <option value="had">had</option>
+            <option value="hadn't">hadn't</option>
+            <option value="has been">has been</option>
+            <option value="hasn't been">hasn't been</option>
+            <option value="had been">had been</option>
+            <option value="hadn't been">hadn't been</option>
+        </select>
+        this man <select id="osiem_pap"><option value="-">-</option><option value="bought ">bought </option>  </select> that car many years ago?
+</div>
+<br>
+
+<div class='translate_background_4';>5.This man  
+    <select  id="dziewięć_pap" >
+        <option value="-">-</option>   
+        <option value="has">has bought</option>
+        <option value="hasn't bought">hasn't bought</option>
+        <option value="had">had bought</option>
+        <option value="hadn't">hadn't bought</option>
+        <option value="has been">has been bought</option>
+        <option value="hasn't been">hasn't been bought</option>
+        <option value="had been">had been bought</option>
+        <option value="hadn't been">hadn't been bought</option>
+        </select>
+        that car many years ago.
+</div>
+<br>
+    </div>
+    <div id="translate_8">
+        <p class="translate_background_3">  1.Wymyłem naczynia zanim opuściłem dom.<br></p>
+        <p class="translate_background_3">2.Po zaproszeniu moich przyjaciół, ja poszedłem na zakupy.</p>
+        <p class="translate_background_3">3.po zasadzeniu kwiatów, nawodniła je.<br></p>
+        <p class="translate_background_3">4.Czy ten mężczyzna kupił samochód wiele lat temu?<br></p>
+        <p class="translate_background_3">5.Ten mężczyzna nie kupił samochodu wiele lat temu.<br></p>      
+    </div>
+    <div id="check_buttons">
+        <button  onclick="window.location.href='menu.html'" id="back">back</button>
+        <button id='check_it' onclick=" sprawdzacz_grammar_ps()">check it</button>
+        <button id='check_it_2' onclick=" sprawdzacz_grammar_pas()">check it</button>
+        <button id="check_it_3" onclick="sprawdzacz_grammar_fs()">check it</button>
+        <button id="check_it_4" onclick="sprawdzacz_grammar_pc()">check it</button>
+        <button id="check_it_5" onclick="sprawdzacz_grammar_pac()">check it</button>
+        <button id="check_it_6" onclick="sprawdzacz_grammar_fc()">check it</button>
+        <button id="check_it_7" onclick="sprawdzacz_grammar_pp()">check it</button>
+        <button id="check_it_8" onclick="sprawdzacz_grammar_pap()">check it</button>
+    </div>
+</div>
+     <div id="grammar_ways">
+        <h1 id="header">Select your lesson :</h1>
+        <button onclick=" present_simple(), display_function(), show_function()" class="button_3">Present simple</button>
+        <button onclick=" past_simple(), display_function(), show_function()" class="button_3">Past simple</button>
+        <button onclick="display_function(),  future_simple(), show_function()" class="button_3">Future simple</button>
+        <button onclick="display_function(), present_continues(), show_function()" class="button_3">Present continues</button>
+        <button onclick="display_function(), past_continues(), show_function()" class="button_3">Past continues</button>
+        <button onclick="display_function(), show_function(), future_continues()" class="button_3">Future continues</button>
+        <button onclick="display_function(), show_function(), present_perfect()" class="button_3">Present perfect</button>
+        <button onclick="display_function(), show_function(), past_perfect()" class="button_3">Past perfect</button>
+    </div>
 </body>
 </html>
